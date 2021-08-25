@@ -1,5 +1,16 @@
 # PICAR-CPP
 
+## Deps
+
+- GPIO: `wiringpi`
+- Bluetooth: `bluez` for connection, `libevdev-dev` for cpp coding, `evdev` for python coding
+- Utility: `libgoogle-glog-dev` `libgflags-dev`
+
+```bash
+sudo apt-get install libgoogle-glog-dev libgflags-dev bluez libevdev-dev wiringpi
+python3 -m pip install evdev --user
+```
+
 ## SMBUS and I2C
 
 For clarification of smbus concepts, check the following:
@@ -32,3 +43,15 @@ The main takeaway is the following:
 GPIO Pin access is completed with the [wiringPi](http://wiringpi.com/) library. Its default pin numbering is different from that of Raspberry Pi. For details see [here](http://wiringpi.com/pins/).
 
 Pin numbering, pin mode and pin value can be checked with command `gpio readall`.
+
+## Bluetooth
+
+Install deps before connecting controller with Pi. If connecting with UI does not work, try command-line from the following:
+
+- https://raspberry-valley.azurewebsites.net/Map-Bluetooth-Controller-using-Python
+
+Since we installed `evdev` in user mode, the location of `evtest.py` is different:
+
+```bash
+python3 ~/.local/lib/python3.7/site-packages/evdev/evtest.py
+```

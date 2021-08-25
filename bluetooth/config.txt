@@ -1,0 +1,93 @@
+98:B6:E9:A6:6F:97
+
+X:
+event at 1629729499.101879, code 04, type 04, val 589826
+key event at 1629729499.101879, 305 (['BTN_B', 'BTN_EAST']), down
+event at 1629729499.246178, code 04, type 04, val 589826
+key event at 1629729499.246178, 305 (['BTN_B', 'BTN_EAST']), up
+
+Y:
+event at 1629729580.902102, code 04, type 04, val 589828
+key event at 1629729580.902102, 307 (['BTN_NORTH', 'BTN_X']), down
+event at 1629729580.979623, code 04, type 04, val 589828
+key event at 1629729580.979623, 307 (['BTN_NORTH', 'BTN_X']), up
+
+A:
+event at 1629729530.001254, code 04, type 04, val 589825
+key event at 1629729530.001254, 304 (['BTN_A', 'BTN_GAMEPAD', 'BTN_SOUTH']), down
+key event at 1629729530.251916, 304 (['BTN_A', 'BTN_GAMEPAD', 'BTN_SOUTH']), hold
+event at 1629729530.251916, code 04, type 04, val 589825
+key event at 1629729530.251916, 304 (['BTN_A', 'BTN_GAMEPAD', 'BTN_SOUTH']), up
+
+B:
+event at 1629729542.597365, code 04, type 04, val 589827
+key event at 1629729542.597365, 306 (BTN_C), down
+event at 1629729542.763520, code 04, type 04, val 589827
+key event at 1629729542.763520, 306 (BTN_C), up
+
+HOME:
+event at 1629729639.829409, code 04, type 04, val 589837
+key event at 1629729639.829409, 316 (BTN_MODE), down
+event at 1629729639.893209, code 04, type 04, val 589837
+key event at 1629729639.893209, 316 (BTN_MODE), up
+
+-:
+event at 1629729652.753318, code 04, type 04, val 589833
+key event at 1629729652.753318, 312 (BTN_TL2), down
+event at 1629729653.010810, code 04, type 04, val 589833
+key event at 1629729653.010810, 312 (BTN_TL2), up
+
++:
+event at 1629729663.840720, code 04, type 04, val 589834
+key event at 1629729663.840720, 313 (BTN_TR2), down
+event at 1629729664.063224, code 04, type 04, val 589834
+key event at 1629729664.063224, 313 (BTN_TR2), up
+
+record:
+key event at 1629729673.482966, 317 (BTN_THUMBL), down
+key event at 1629729673.741914, 317 (BTN_THUMBL), hold
+key event at 1629729673.791915, 317 (BTN_THUMBL), hold
+event at 1629729673.791915, code 04, type 04, val 589838
+key event at 1629729673.791915, 317 (BTN_THUMBL), up
+
+ZL:
+event at 1629729734.212029, code 04, type 04, val 589831
+key event at 1629729734.212029, 310 (BTN_TL), up
+
+ZR:
+key event at 1629729744.911597, 311 (BTN_TR), down
+event at 1629729745.144070, code 04, type 04, val 589832
+key event at 1629729745.144070, 311 (BTN_TR), up
+
+L:
+event at 1629729761.287762, code 04, type 04, val 589829
+key event at 1629729761.287762, 308 (['BTN_WEST', 'BTN_Y']), down
+event at 1629729761.399016, code 04, type 04, val 589829
+key event at 1629729761.399016, 308 (['BTN_WEST', 'BTN_Y']), up
+
+R:
+event at 1629729762.760379, code 04, type 04, val 589830
+key event at 1629729762.760379, 309 (BTN_Z), down
+event at 1629729762.836626, code 04, type 04, val 589830
+key event at 1629729762.836626, 309 (BTN_Z), up
+
+up:
+event at 1629738121.701377, code 17, type 03, val -1
+
+down:
+event at 1629738135.182895, code 17, type 03, val 01
+
+left:
+event at 1629738150.204532, code 16, type 03, val -1
+
+right:
+event at 1629738150.204532, code 16, type 03, val 1
+
+left joystick:
+up:
+  code 01, type 03, val 32768
+
+right joystick:
+  code 03, type 03
+
+
