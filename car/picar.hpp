@@ -5,6 +5,7 @@
 #include "component/motor.hpp"
 #include "component/servo.hpp"
 
+// speed: 0 - 100
 class Picar {
 public:
   Picar()
@@ -52,6 +53,10 @@ public:
     SetCamPitch(0);
     SetCamYaw(0);
   }
+
+  double GetDirection() const { return dir_.GetAngle(); }
+  double GetCamYaw() const { return -cam_yaw_.GetAngle(); }
+  double GetCamPitch() const { return -cam_pitch_.GetAngle(); }
 
 private:
   Motor left_, right_;

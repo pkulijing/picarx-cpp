@@ -25,3 +25,4 @@ DECLARE_double(cam_pitch_max_angle);
 DECLARE_double(dir_max_angle);
 DECLARE_double(servo_angle_to_percent_k);
 DECLARE_double(servo_angle_to_percent_b);
+DECLARE_string(joystick_filename);

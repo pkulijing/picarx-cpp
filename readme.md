@@ -32,3 +32,15 @@ The main takeaway is the following:
 GPIO Pin access is completed with the [wiringPi](http://wiringpi.com/) library. Its default pin numbering is different from that of Raspberry Pi. For details see [here](http://wiringpi.com/pins/).
 
 Pin numbering, pin mode and pin value can be checked with command `gpio readall`.
+
+## Joystick
+
+Install deps:
+
+```bash
+sudo apt-get install joystick
+```
+
+For usage, check:
+
+- https://www.kernel.org/doc/Documentation/input/joystick-api.txt

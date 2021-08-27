@@ -23,3 +23,4 @@ DEFINE_double(cam_pitch_max_angle, 60.0, "max pitch of cam");
 DEFINE_double(dir_max_angle, 35.0, "max dir of vehicle");
 DEFINE_double(servo_angle_to_percent_k, 1.0 / 18.0, "percent = k * angle + b");
 DEFINE_double(servo_angle_to_percent_b, 7.5, "percent = k * angle + b");
+DEFINE_string(joystick_filename, "/dev/input/js0", "joystick filename");
