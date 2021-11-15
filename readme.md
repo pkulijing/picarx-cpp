@@ -1,5 +1,15 @@
 # PICAR-CPP
 
+This is an attempt to do some funny stuff with [sunfounder's picar-x smart video car kit](https://www.sunfounder.com/products/picar-x). Some ideas include:
+
+- [x] Rewrite controllers of motors and servos in cpp and move the car successfully with code.
+- [x] Connect the car with a wireless joystick and turn it into a remote-control car.
+- [ ] Refactor controllers and sensor drivers into nodes inside a DCPS system like opendds (ROS is enough but why not DDS)
+  - [ ] A web-based UI to control the car and display sensor outputs.
+- [ ] Perception stuff (human face detection/edge detection/freespace detection) with the sensors, especially the camera.
+  - [ ] Hook the raspberry pi with an edge TPU or other acceleration hardware to achive usable performance.
+- [ ] A simple planner that helps the car to achive self-driving in limited environment.
+
 ## SMBUS and I2C
 
 For clarification of smbus concepts, check the following:
